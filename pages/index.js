@@ -1,9 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { NoteBook } from "./NoteBook";
+import NoteBook from "../components/NoteBook";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useState } from "react";
-import { Alex } from "./Alex";
 
 export default function Home() {
   return (

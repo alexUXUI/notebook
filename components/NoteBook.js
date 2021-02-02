@@ -12,7 +12,7 @@ const icon = {
   },
 };
 
-export const NoteBook = () => {
+const NoteBook = () => {
   return (
     <motion.svg
       id="total-notebook"
@@ -3183,3 +3183,5 @@ export const NoteBook = () => {
     </motion.svg>
   );
 };
+
+export default NoteBook;
