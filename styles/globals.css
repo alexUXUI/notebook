@@ -14,3 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.alex {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear infinite;
+  stroke: red;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 8;
+  }
+  to {
+    stroke-dashoffset: 100;
+  }
+}

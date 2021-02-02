@@ -1,5 +1,9 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { NoteBook } from "./NoteBook";
+import { motion, useMotionValue, useTransform } from "framer-motion";
+import { useState } from "react";
+import { Alex } from "./Alex";
 
 export default function Home() {
   return (
@@ -8,12 +12,12 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <NoteBook />
       <main className={styles.main}>
-        <h1 className={styles.title}>Alex's Digital Notebook 📓</h1>
+        <h1>Alex's digital notebook.</h1>
         <p>
-          Not quite a portfolio site, or a blog. Just a bunch or random notes,
-          similiar to what youd find in a notebook.
+          Not quite a portfolio site or a blog. Just a bunch or random notes,
+          similiar to what you might find in a notebook.
         </p>
       </main>
 
